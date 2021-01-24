@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col h-screen">
+      <div className="bg-blue-500 flex-1 flex overflow-y-hidden">
+        <div className="bg-red-500 w-48 flex-none overflow-y-auto">sidebar Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quas ipsum reiciendis voluptatum aspernatur repudiandae accusamus blanditiis consequatur cupiditate! Eveniet aut tempore quo illum earum laborum consequatur incidunt commodi quam modi omnis ipsa, ea explicabo eum dignissimos nisi maiores sint culpa fugit at veniam animi? Magni voluptatibus tempora quaerat accusamus eligendi quisquam non maiores dicta vel, dolor cum, maxime doloremque quam, fugiat facilis illum officia fuga dolorem. Neque ad eveniet sint, consequuntur nam voluptatum tenetur quia, blanditiis hic delectus ab dolores! Repudiandae itaque ut ratione necessitatibus distinctio voluptatum! Adipisci numquam iste porro, id soluta quas ratione eum temporibus cupiditate doloribus facere corrupti iusto ducimus quam veritatis dolore consectetur reiciendis dolor repudiandae recusandae maiores ad consequuntur! Harum laborum corporis pariatur amet quae impedit ipsum itaque sequi vel molestias quisquam obcaecati odio suscipit delectus perspiciatis voluptates ut sint, accusamus minus, provident dolore iste sed quas! Animi esse, ea provident quia totam saepe alias neque optio, nisi deleniti error, ipsa laborum voluptatum mollitia molestiae. Minus minima impedit quidem distinctio voluptate neque sed, nam explicabo mollitia architecto. Tempora tenetur quia, perspiciatis autem voluptatem harum aliquid, eveniet id, dolores amet necessitatibus hic rerum. Debitis quasi dignissimos qui aperiam unde dolor nihil voluptatum quibusdam culpa vitae? Dolor, molestias! Hic veritatis rerum itaque ratione dicta est quis magni architecto, ipsum expedita minus ipsam? Eaque laborum dolorem, nostrum maxime ut consequuntur veniam fugiat eveniet illum vero rem aliquid iure sunt perspiciatis porro voluptatem. Laborum nesciunt libero incidunt esse expedita ex facere, quia laudantium magni quibusdam aliquam cum obcaecati.</div>
+        <div className="bg-red-300 flex-1">content Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam delectus accusantium nulla aliquid nam nemo quo recusandae, repellendus, eligendi explicabo, autem reiciendis voluptatum ipsa quas sequi. Ab perspiciatis quaerat quo in nisi enim ipsum pariatur, reiciendis nostrum labore officiis et omnis dolorum assumenda nemo, cum corrupti commodi, culpa numquam! Facere necessitatibus quasi saepe quibusdam labore voluptate suscipit eveniet fuga soluta consectetur vitae ad praesentium ipsam commodi debitis, vero reprehenderit repudiandae, numquam accusamus nemo cumque! Vel, sit! Quisquam debitis, quod expedita, tenetur necessitatibus delectus voluptatum natus rerum cum voluptate, eos iste aspernatur magnam. Alias quo sed nam id asperiores vel! Veritatis quo natus omnis expedita sunt fugit similique nostrum debitis accusamus assumenda? Doloremque quo laudantium, odio deserunt, modi voluptate earum eos ex nesciunt quasi libero veniam voluptatum odit. Nostrum deserunt eius iure omnis dolore laudantium iusto rerum dolor corrupti consequatur reiciendis minima accusantium, veritatis autem mollitia fugit quisquam. Alias enim doloremque natus pariatur voluptas impedit esse, quibusdam eius non ullam, exercitationem facilis suscipit tempore corporis optio sunt iusto repudiandae sint! Labore quaerat odio reprehenderit ipsum sunt, dolor repudiandae consequatur neque dolores odit, beatae eligendi! Minima eveniet facere pariatur earum eligendi explicabo expedita, laborum numquam nihil corporis facilis amet natus, ipsam commodi illum! Voluptates, itaque distinctio aspernatur provident vel exercitationem, similique veritatis, assumenda illo corporis quidem libero qui error ratione hic voluptatum magni odit illum! Ullam debitis rerum vel illum sint atque quidem itaque minima. Reiciendis saepe doloremque, dolor optio deserunt aspernatur quo qui quos perspiciatis. Dolorum cum veniam aperiam repudiandae ipsum?</div>
+
+      </div>
+      <div className="bg-blue-300">bottom</div>
     </div>
   );
 }
