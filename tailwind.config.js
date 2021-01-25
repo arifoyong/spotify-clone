@@ -10,6 +10,9 @@ module.exports = {
       },
       lineHeight: {
         'extra-loose': '2.5'
+      },
+      spacing: {
+        '200': '50rem',
       }
     },
   },
